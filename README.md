@@ -1,23 +1,17 @@
 # CPyProjectTemplate
-for this project we just needed to make a led blink using python
-this project was very simple as it wwas the first project of the year so all we needed was the arduino and the computer
-here is the code i used:
-import board
-import neopixel
-import time
+this was a CAD assignment that was pretty difficult because not all of the demetions are listed and you need to find them out one at a time and sometime put in a number you know isnt correct.  
+Here are some pictures of the project
 
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
+![Screenshot 2022-10-18 150344](https://user-images.githubusercontent.com/71406784/196520985-bd7c9522-75ee-4059-bc15-e2cd047fdabb.png)
 
 
-while True:
-    b=25
-    g=0
-    r=25
-    dot.fill((b,g, r))
-    time.sleep(1)
-    dot.fill((0,0,0))
-    time.sleep(1)
-    print("Make it green")
 
-I didnt have any real problems this project, just had to set up all the accounts and downloads.
+![Screenshot 2022-10-18 150327](https://user-images.githubusercontent.com/71406784/196520997-0a1ae627-575b-4ae6-b67a-99874fc9e193.png)
+
+
+and here is my project:
+
+
+![Screenshot 2022-10-18 150305](https://user-images.githubusercontent.com/71406784/196521011-b802d479-ca41-4d92-b144-398aa1dc8997.png)
+
+this one was difficult because it was my first time i had done anything like this and so next time i will be better equiped to handle it. The most important thing is to plan ahead and put time into doing things right in the begging so you dont have problems later on. 
